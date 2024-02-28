@@ -53,10 +53,7 @@ https://www.youtube.com/watch?v=DhUpxWjOhME&ab_channel=mCoding
 ## Docker
 
 Si se usa Docker, se puede correr los siguientes comandos para ejecutar los tests:
-
+```sh
 docker build -t my-pytest-image .
 docker run --rm my-pytest-image
-
-Para ingresar al contenedor:
-
-docker run -it my-pytest-image bash
+```
